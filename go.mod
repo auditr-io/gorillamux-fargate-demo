@@ -1,4 +1,4 @@
-module github.com/auditr-io/gorillamux-lambda-http-proxy-demo
+module github.com/auditr-io/gorillamux-fargate-demo
 
 go 1.17
 
