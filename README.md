@@ -2,11 +2,6 @@
 
 This is a demo showing how to begin auditing HTTP requests using [auditrgorilla](https://github.com/auditr-io/auditr-agent-go/tree/main/wrappers/auditrgorilla) middleware
 
-## Install
-```
-    go get -u github.com/auditr-io/gorillamux-fargate-demo
-```
-
 ## Examples
 Let's start with a basic server:
 ```
