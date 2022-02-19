@@ -83,6 +83,12 @@ Then pass them into your `make` commands:
 ```
     env $(cat .env | xargs) make run
 ```
+Try calling the `/health` endpoint to confirm the container's running:
+```
+	curl -I http://localhost:8000/health
+	HTTP/1.1 200 OK
+	Date: Sat, 19 Feb 2022 18:29:16 GMT
+```
 
 ### Stop the image container
 ```
